@@ -2,9 +2,10 @@ import axios from 'axios'
 
 import api from './API'
 
+const { root, prefix, apis } = api
 // get complete url
 const generateUrl = (key) => {
-  return `${api.root}${api.prefix}${api[key]}`
+  return `${root}${prefix}${apis[key]}`
 }
 
 // axios request interceptors
