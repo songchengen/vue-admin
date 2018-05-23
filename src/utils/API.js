@@ -1,5 +1,5 @@
 export default {
-  root: 'http://localhost:8000',
+  root: '',
   prefix: '/api',
   apis: {
     SESSION: '/session',
