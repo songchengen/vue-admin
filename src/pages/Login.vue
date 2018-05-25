@@ -2,7 +2,7 @@
     <div class="login-component">
       <div class="login-form-container">
         <el-form :model="loginForm">
-          <el-form-item label-position="left"	>
+          <el-form-item label-position="left">
             <el-input v-model="loginForm.user_name"></el-input>
           </el-form-item>
         </el-form>
@@ -40,5 +40,3 @@ export default {
     text-align: center
   }
 </style>
-
-
