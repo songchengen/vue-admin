@@ -19,4 +19,3 @@ export default {
     padding: 0;
   }
 </style>
-
